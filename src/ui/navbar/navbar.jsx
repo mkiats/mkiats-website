@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { MdOutlineMenu } from "react-icons/md";
+import Navlink from "./navlink/navlink";
 
 const links = [
   { url: "/about", title: "about" },
@@ -24,9 +25,7 @@ const Navbar = () => {
       {/* LINKS */}
       <div className="hidden md:flex justify-center items-center gap-4 w-1/3">
         {links.map((link) => (
-          <Link href={link.url} key={link.title}>
-            {link.title}
-          </Link>
+          <Navlink link={link} key={link.title}/>
         ))}
       </div>
       {/* LOGO */}
