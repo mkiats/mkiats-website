@@ -45,7 +45,12 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 justify-center w-1/3">
         {socials.map((link) => (
           <Link href={link.url} key={link.title}>
-            <Image src={link.src} width={24} height={24} />
+            <Image
+              src={link.src}
+              width={24}
+              height={24}
+              alt="Image_Description"
+            />
           </Link>
         ))}
       </div>
