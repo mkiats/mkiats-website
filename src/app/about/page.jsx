@@ -5,6 +5,7 @@ const Home = () => {
     <div className="flex overflow-scroll">
       {/* TEXT CONTAINER */}
       <div className="w-1/2 h-screen justify-center flex flex-col">
+        <div className="">EDUCATION</div>
         <Timeline className="" />
       </div>
 

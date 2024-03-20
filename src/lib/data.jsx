@@ -1,27 +1,27 @@
 export const workExperience = [
   {
-    index: "0",
+    order: "0",
     jobTitle: "Software engineer intern",
     jobDesc: "JQuery and Springboot",
     jobDuration: "Jan 2024 - Present",
     employerOrganisation: "Integro",
   },
   {
-    index: "1",
+    order: "1",
     jobTitle: "Machine learning intern",
     jobDesc: "Simclr and LLM",
     jobDuration: "May 2023 - Aug 2023",
     employerOrganisation: "DSO",
   },
   {
-    index: "2",
+    order: "2",
     jobTitle: "Software engineer intern",
     jobDesc: "JQuery and Springboot",
     jobDuration: "Jan 2024 - Present",
     employerOrganisation: "Integro",
   },
   {
-    index: "3",
+    order: "3",
     jobTitle: "Machine learning intern",
     jobDesc: "Simclr and LLM",
     jobDuration: "May 2023 - Aug 2023",
