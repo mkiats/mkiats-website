@@ -5,7 +5,9 @@ const TimelineListSegment = ({ job, index }) => {
     <div className="flex h-full w-full">
       {/* TIMELINE LIST ITEM */}
       <div className="flex-1 flex p-4 justify-end">
-        {parseInt(index) % 2 === 0 && <TimelineListItem job={job} />}
+        {parseInt(index) % 2 === 0 && (
+          <TimelineListItem job={job} key={index} />
+        )}
       </div>
       {/* TIMELINE LIST ITEM */}
       <div className="flex-2 flex justify-center">
@@ -15,7 +17,9 @@ const TimelineListSegment = ({ job, index }) => {
       </div>
       {/* TIMELINE LIST ITEM */}
       <div className="flex-1 p-4 flex justify-start">
-        {parseInt(index) % 2 === 1 && <TimelineListItem job={job} />}
+        {parseInt(index) % 2 === 1 && (
+          <TimelineListItem job={job} key={index} />
+        )}
       </div>
     </div>
   );

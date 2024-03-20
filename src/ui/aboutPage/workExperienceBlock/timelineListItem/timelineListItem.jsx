@@ -2,9 +2,9 @@ const TimelineListItem = ({ job }) => {
   const { order, jobTitle, jobDesc, jobDuration, employerOrganisation } = job;
 
   return (
-    <div className="w-2/3 flex flex-col">
+    <div className="w-full flex flex-col">
       {/* JOB TITLE */}
-      <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+      <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg flex justify-center items-center">
         {jobTitle}
       </div>
       {/* JOB DESC */}
