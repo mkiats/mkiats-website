@@ -1,5 +1,6 @@
-const TimelineListItem = ({jobTitle, jobDesc, jobDuration, employeeOrganisation}) => {
-     return <div> TimelineListItem </div>
+const TimelineListItem = ({ job }) => {
+
+  return <div> TimelineListItem </div>;
 };
 
-export default TimelineListItem
+export default TimelineListItem;

@@ -6,8 +6,8 @@ import { MdOutlineMenu } from 'react-icons/md';
 import Navlink from './navlink/navlink';
 
 const links = [
+	{ url: '/', title: 'home' },
 	{ url: '/about', title: 'about' },
-	{ url: '/home', title: 'home' },
 	{ url: '/projects', title: 'projects' },
 	{ url: '/contact', title: 'contact' },
 ];

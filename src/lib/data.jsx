@@ -1,4 +1,4 @@
-const workExperience = [
+export const workExperience = [
   {
     index: "0",
     jobTitle: "Software engineer intern",
@@ -14,14 +14,14 @@ const workExperience = [
     employerOrganisation: "DSO",
   },
   {
-    index: "0",
+    index: "2",
     jobTitle: "Software engineer intern",
     jobDesc: "JQuery and Springboot",
     jobDuration: "Jan 2024 - Present",
     employerOrganisation: "Integro",
   },
   {
-    index: "1",
+    index: "3",
     jobTitle: "Machine learning intern",
     jobDesc: "Simclr and LLM",
     jobDuration: "May 2023 - Aug 2023",
