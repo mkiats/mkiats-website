@@ -56,14 +56,14 @@ const Navbar = () => {
 			{/* MENU BUTTON */}
 			<div className='md:hidden'>
 				<button
-					className='z-10 relative'
+					className='z-20 relative'
 					onClick={() => setOpen(!open)}>
 					<MdOutlineMenu color={open ? 'white' : 'black'} />
 				</button>
 				{/* MENU */}
 
 				{open && (
-					<div className='absolute top-0 right-0 h-screen w-screen bg-black text-white flex flex-col justify-center items-center gap-10'>
+					<div className='absolute top-0 right-0 h-screen w-screen bg-black text-white flex flex-col justify-center items-center gap-10 z-10'>
 						{links.map((link) => (
 							<Link href={link.url} key={link.title}>
 								{link.title}

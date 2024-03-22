@@ -1,5 +1,4 @@
 'use client';
-
 import Brain from '@/ui/aboutPage/cogWheelAnimation';
 import EducationBlock from '@/ui/aboutPage/educationBlock/educationBlock';
 import SummaryBlock from '@/ui/aboutPage/summaryBlock/summaryBlock';
