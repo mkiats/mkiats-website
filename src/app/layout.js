@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/ui/navbar/navbar';
-
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -13,11 +12,11 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body className={inter.className}>
-				<div className='w-screen h-screen bg-gradient-to-b from-blue-100 to-red-100'>
-					<div className='h-24'>
+				<div className='w-[calc(100vw-0.5rem)] h-screen bg-gradient-to-b from-blue-100 to-red-100'>
+					<div className='h-24 w-[calc(100vw-0.5rem)]'>
 						<Navbar className='h-24' />
 					</div>
-					<div className='h-[calc(100vh-6rem)]'>
+					<div className='h-[calc(100vh-6rem)] w-[calc(100vw-0.5rem)]'>
 						{children}
 					</div>
 				</div>
